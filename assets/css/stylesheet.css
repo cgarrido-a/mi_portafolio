@@ -1,0 +1,43 @@
+body{
+  margin:0;
+  font-family: "Open Sans", sans-serif;
+}
+
+/* navbar */
+.my-brand{
+  font-family: "Oswald", sans-serif;
+  font-weight: bold;
+  font-size: 2.5rem;
+}
+.my-navbar{
+  background-color: #660066;
+}
+.navbar-sections{
+  font-family: "Helvetica Neue", sans-serif;
+  font-weight: regular;
+}
+
+/* hero-section */
+.hero-section{
+  background-image: url("../img/bg_hero.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100vh;
+}
+
+#title{
+  font-family: "Oswald", sans-serif;
+  font-weight: 200;
+  color: white;
+  font-size: 4rem;
+  text-align: center;
+  line-height: 2;
+}
+
+#name{
+  font-family: "Oswald", sans-serif;
+  font-weight: bold;
+  text-decoration: overline;
+}
