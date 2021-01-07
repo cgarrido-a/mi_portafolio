@@ -4,10 +4,11 @@ body{
   color: #373A3C;
 }
 
+
 /* navbar */
 .my-brand{
   font-family: "Oswald", sans-serif;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 2.5rem;
 }
 .my-navbar{
@@ -17,6 +18,7 @@ body{
   font-family: "Helvetica Neue", sans-serif;
   font-weight: regular;
 }
+
 
 /* hero-section */
 .hero-section{
@@ -39,9 +41,10 @@ body{
 
 #name{
   font-family: "Oswald", sans-serif;
-  font-weight: bold;
+  font-weight: 700;
   text-decoration: overline;
 }
+
 
 /* section "sobre mi" */
 h3{
@@ -53,8 +56,29 @@ p{
   line-height: 2
 }
 
-.about-me-line{
+.my-line{
   border: solid 1px #373A3C;
   width: 10%;
 
+}
+
+/* seccion Experiencia */
+
+#titulo-experiencia{
+  font-family: "Oswald", sans-serif;
+  font-weight: 700;
+}
+
+i{
+  color: #660066;
+}
+
+.titulos_experiencia{
+  font-family: "Oswald", sans-serif;
+  font-weight: 600;
+}
+
+.p_experiencia{
+  font-weight: 300;
+  font-size: 1.5em;
 }
