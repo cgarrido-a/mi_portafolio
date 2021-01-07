@@ -82,3 +82,21 @@ i{
   font-weight: 300;
   font-size: 1.5em;
 }
+
+/* seccion últimos trabajos */
+
+.proyects{
+  background-color: #660066;
+}
+
+.my-line-proyects{
+  border: solid 1px white;
+  width: 10%;
+
+}
+
+.title_proyects{
+  font-family: "Oswald", sans-serif;
+  font-weight: 700;
+
+}
