@@ -100,3 +100,25 @@ i{
   font-weight: 700;
 
 }
+
+h5{
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+}
+
+.p-card{
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+}
+
+/* sección contacto */
+
+.contacto-title{
+  font-family: "Oswald", sans-serif;
+  font-weight: 600;
+}
+
+/* seccion footer */
+footer{
+  background-color: #660066;
+}
