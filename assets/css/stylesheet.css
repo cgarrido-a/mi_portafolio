@@ -4,16 +4,27 @@ body{
   color: #373A3C;
 }
 
+footer, .my-navbar, .proyects{
+  background-color: #660066;
+}
+
+.about_me_title, .title_proyects, #titulo-experiencia, #name, .my-brand{
+  font-family: "Oswald", sans-serif;
+  font-weight: 700;
+}
+
+
+.titulos_experiencia, .contacto-title{
+  font-family: "Oswald", sans-serif;
+  font-weight: 600;
+}
+
 
 /* navbar */
 .my-brand{
-  font-family: "Oswald", sans-serif;
-  font-weight: 700;
   font-size: 2.5rem;
 }
-.my-navbar{
-  background-color: #660066;
-}
+
 .navbar-sections{
   font-family: "Helvetica Neue", sans-serif;
   font-weight: regular;
@@ -40,17 +51,12 @@ body{
 }
 
 #name{
-  font-family: "Oswald", sans-serif;
-  font-weight: 700;
   text-decoration: overline;
 }
 
 
 /* section "sobre mi" */
-h3{
-  font-weight: 600;
-  line-height: 2;
-}
+
 p{
   font-weight: 400;
   line-height: 2
@@ -59,23 +65,12 @@ p{
 .my-line{
   border: solid 1px #373A3C;
   width: 10%;
-
 }
 
 /* seccion Experiencia */
 
-#titulo-experiencia{
-  font-family: "Oswald", sans-serif;
-  font-weight: 700;
-}
-
 i{
   color: #660066;
-}
-
-.titulos_experiencia{
-  font-family: "Oswald", sans-serif;
-  font-weight: 600;
 }
 
 .p_experiencia{
@@ -85,19 +80,9 @@ i{
 
 /* seccion últimos trabajos */
 
-.proyects{
-  background-color: #660066;
-}
-
 .my-line-proyects{
   border: solid 1px white;
   width: 10%;
-
-}
-
-.title_proyects{
-  font-family: "Oswald", sans-serif;
-  font-weight: 700;
 
 }
 
@@ -109,16 +94,4 @@ h5{
 .p-card{
   font-family: "Open Sans", sans-serif;
   font-weight: 300;
-}
-
-/* sección contacto */
-
-.contacto-title{
-  font-family: "Oswald", sans-serif;
-  font-weight: 600;
-}
-
-/* seccion footer */
-footer{
-  background-color: #660066;
 }
