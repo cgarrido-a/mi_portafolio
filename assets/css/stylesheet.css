@@ -1,0 +1,97 @@
+body{
+  margin:0;
+  font-family: "Open Sans", sans-serif;
+  color: #373A3C;
+}
+
+footer, .my-navbar, .proyects{
+  background-color: #660066;
+}
+
+.about_me_title, .title_proyects, #titulo-experiencia, #name, .my-brand{
+  font-family: "Oswald", sans-serif;
+  font-weight: 700;
+}
+
+
+.titulos_experiencia, .contacto-title{
+  font-family: "Oswald", sans-serif;
+  font-weight: 600;
+}
+
+
+/* navbar */
+.my-brand{
+  font-size: 2.5rem;
+}
+
+.navbar-sections{
+  font-family: "Helvetica Neue", sans-serif;
+  font-weight: regular;
+}
+
+
+/* hero-section */
+.hero-section{
+  background-image: url("../img/bg_hero.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100vh;
+}
+
+#title{
+  font-family: "Oswald", sans-serif;
+  font-weight: 200;
+  color: white;
+  font-size: 4rem;
+  text-align: center;
+  line-height: 2;
+}
+
+#name{
+  text-decoration: overline;
+}
+
+
+/* section "sobre mi" */
+
+p{
+  font-weight: 400;
+  line-height: 2
+}
+
+.my-line{
+  border: solid 1px #373A3C;
+  width: 10%;
+}
+
+/* seccion Experiencia */
+
+i{
+  color: #660066;
+}
+
+.p_experiencia{
+  font-weight: 300;
+  font-size: 1.5em;
+}
+
+/* seccion últimos trabajos */
+
+.my-line-proyects{
+  border: solid 1px white;
+  width: 10%;
+
+}
+
+h5{
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+}
+
+.p-card{
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+}
